@@ -39,13 +39,13 @@ header {
 }
 header h1 {
   color: var(--primary-magenta);
-  font-size: 3.8rem;
+  font-size: 3.2rem;
   line-height: 1;
   margin: 2rem 0;
 }
 .header-message {
   color: var(--neutral-dark-magenta);
-  line-height: 1.6;
+  line-height: 25px;
 }
 .ratings ul {
   list-style: none;
@@ -62,6 +62,9 @@ header h1 {
 .stars-wrapper {
   display: flex;
   justify-content: center;
+}
+.stars-wrapper p {
+  font-size: 1.3rem;
 }
 .stars-wrapper img {
   margin: 1.5rem 0.5rem;
@@ -128,6 +131,7 @@ header h1 {
   }
   header h1 {
     width: 90%;
+    font-size: 4.8rem;
   }
   .ratings {
     width: 630px;
